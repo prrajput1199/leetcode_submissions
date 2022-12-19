@@ -37,7 +37,7 @@ class Solution
 
       int limit = meet[0].end;
 
-      for (int i = 0; i < n; i++) {
+      for (int i = 1; i < n; i++) {
          if (meet[i].start > limit) {
             limit = meet[i].end;
             count++;
